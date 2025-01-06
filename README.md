@@ -10,29 +10,26 @@ The Banking System is a console-based Java program that allows users to manage b
 
 1. Create Account:
 
-Users can create new bank accounts by providing an account number and account holder's name.
-
+- Users can create new bank accounts by providing an account number and account holder's name.
 Ensures unique account numbers.
 
 2. Deposit Money:
-
-Users can deposit money into an account by entering the account number and deposit amount.
-
+   
+- Users can deposit money into an account by entering the account number and deposit amount.
 Validates deposit amounts to ensure they are positive.
 
 3. Withdraw Money:
 
-Users can withdraw money by providing the account number and withdrawal amount.
-
+- Users can withdraw money by providing the account number and withdrawal amount.
 Ensures sufficient balance and validates withdrawal amounts.
 
 4. Check Balance:
 
-Displays the current balance for a given account.
+- Displays the current balance for a given account.
 
 5. Exit:
 
-Allows users to exit the program safely.
+- Allows users to exit the program safely.
 
 ---
 
@@ -52,7 +49,7 @@ Steps:
 
 ---
 
-## Code Structure
+## Code Structure ⚙
 
 Classes:
 
@@ -76,18 +73,29 @@ Classes:
 Main Menu:
 
 1. Create Account:
+- Enter account number: 12345
+- Enter account holder name: Johny
+- Account created successfully.
 
 2. Deposit Money:
+- Enter account number: 12345
+- Enter deposit amount: 500.0
+- Deposited: 500.0
 
 3. Withdraw Money:
-  
+- Enter account number: 12345
+- Enter withdrawal amount: 200.0
+- Withdrew: 200.0
+
 4. Check Balance:
+- Enter account number: 12345
+- Account Balance: 300.0
    
 5. Exit:
-   
+-  Thank you for using the Banking System.
 ---
 
-## Future Enhancements
+## Future Enhancements🤩
 
 - Add persistent storage to save account data across sessions.
 - Implement account deletion functionality.
